@@ -4,50 +4,50 @@ import PropList from "./PropList";
 import Search from "./Search";
 
 function PropPage() {
-    const [plants, setPlants] = useState([]);
-    const [searchTerm, setSearchTerm] = useState("");
+    const [props, setProps] = useState([]);
+    const [searchWord, setSearchWord] = useState("");
 
     useEffect(() => {
         fetch("http://localhost:3000/properties")
             .then((r) => r.json())
-            .then((plantsArray) => {
-                setPlants(plantsArray);
+            .then((propsArray) => {
+                setProps(propsArray);
             });
     }, []);
 
-    function handleAddPlant(newPlant) {
-        const updatedPlantsArray = [...plants, newPlant];
-        setPlants(updatedPlantsArray);
+    function handleAddProp(newProp) {
+        const updatedPropsArray = [...props, newProp];
+        setProps(updatedPropsArray);
     }
 
-    function handleDeletePlant(id) {
-        const updatedPlantsArray = plants.filter((plant) => plant.id !== id);
-        setPlants(updatedPlantsArray);
+    function handleDeleteProp(id) {
+        const updatedPropsArray = props.filter((prop) => prop.id !== id);
+        setProps(updatedPropsArray);
     }
 
-    function handleUpdatePlant(updatedPlant) {
-        const updatedPlantsArray = plants.map((plant) => {
-            if (plant.id === updatedPlant.id) {
-                return updatedPlant;
+    function handleUpdateProp(updatedProp) {
+        const updatedPropsArray = props.map((props) => {
+            if (props.id === updatedProp.id) {
+                return updatedProp;
             } else {
-                return plant;
+                return props;
             }
         });
-        setPlants(updatedPlantsArray);
+        setProps(updatedPropsArray);
     }
 
-    const displayedPlants = plants.filter((plant) => {
-        return plant.address.toLowerCase().includes(searchTerm.toLowerCase());
+    const displayedProps = props.filter((prop) => {
+        return prop.address.toLowerCase().includes(searchWord.toLowerCase());
     });
 
     return (
         <main>
-            <NewPropForm onAddPlant={handleAddPlant} />
-            <Search searchTerm={searchTerm} onSearchChange={setSearchTerm} />
+            <NewPropForm onAddProp={handleAddProp} />
+            <Search searchWord={searchWord} onSearchChange={setSearchWord} />
             <PropList
-                plants={displayedPlants}
-                onDeletePlant={handleDeletePlant}
-                onUpdatePlant={handleUpdatePlant}
+                props={displayedProps}
+                onDeleteProp={handleDeleteProp}
+                onUpdateProp={handleUpdateProp}
             />
         </main>
     );

@@ -1,283 +1,247 @@
 {
-    "properties": [
-        {
-            "id": 1,
-            "price": "1,950,000",
-            "address": "5240 E Dakota Avenue, Denver, CO 80246",
-            "bedroom": "4",
-            "bathroom": "5",
-            "sqft": "3,889",
-            "image": "https://www.zillow.com/homedetails/5240-E-Dakota-Ave-Denver-CO-80246/13404620_zpid/?mmlb=g,0"
-        },
-        {
-            "id": 2,
-            "price": "2,100,000",
-            "address": "4545 Yates Street, Denver, CO 80212",
-            "bedroom": "4",
-            "bathroom": "4",
-            "sqft": "3,936",
-            "image": "https://www.zillow.com/homedetails/4545-Yates-St-Denver-CO-80212/13294656_zpid/?mmlb=g,0"
-        },
-        {
-            "id": 3,
-            "address": "462 S Pennsylvania Street, Denver, CO 80209",
-            "price": "2,300,000",
-            "bedroom": "5",
-            "bathroom": "6",
-            "sqft": "4,235",
-            "image": "https://www.zillow.com/homedetails/462-S-Pennsylvania-St-Denver-CO-80209/13355550_zpid/?mmlb=g,0"
-        },
-        {
-            "id": 4,
-            "address": "3143 Wolff Street, Denver, CO 80212",
-            "price": "2,050,000",
-            "bedroom": "4",
-            "bathroom": "3",
-            "sqft": "3,503",
-            "image": "https://www.zillow.com/homedetails/3143-Wolff-St-Denver-CO-80212/13313451_zpid/?mmlb=g,0"
-        },
-        {
-            "id": 5,
-            "address": "722 N High Street, Denver, CO 80218",
-            "price": "1,800,000",
-            "bedroom": "6",
-            "bathroom": "5",
-            "sqft": "6,154",
-            "image": "https://photos.zillowstatic.com/fp/8d299d8521ad441af1d91361169c6b04-o_a.webp"
-        },
-        {
-            "id": 6,
-            "address": "3634 Wyandot Street, Denver, CO 80211",
-            "price": "1,100,000",
-            "bedroom": "4",
-            "bathroom": "4",
-            "sqft": "2,580",
-            "image": "https://photos.zillowstatic.com/fp/a12cf031bcf15d50c57dd2e6d76a2a68-o_a.webp"
-        },
-        {
-            "id": 7,
-            "address": "1961 S Humboldt Street, Denver, CO 80210",
-            "price": "2,228,000",
-            "bedroom": "4",
-            "bathroom": "4",
-            "sqft": "4,563",
-            "image": "https://photos.zillowstatic.com/fp/73c570e631c3819f37837dba19d1966e-o_a.webp"
-        },
-        {
-            "id": 8,
-            "address": "1410 S Monroe Street, Denver, CO 80210",
-            "price": "1,999,000",
-            "bedroom": "6",
-            "bathroom": "7",
-            "sqft": "4,878",
-            "image": "https://photos.zillowstatic.com/fp/4f8bc91c965b2e7f8eb3fdb4c683f77c-cc_ft_960.webp"
-        },
-        {
-            "id": 9,
-            "address": "1125 Leyden Street, Denver, CO 80220",
-            "price": "1,400,000",
-            "bedroom": "5",
-            "bathroom": "5",
-            "sqft": "4,251",
-            "image": "https://photos.zillowstatic.com/fp/b3a3aab149316cff5726cf0db932b6b7-cc_ft_960.webp"
-        },
-        {
-            "id": 10,
-            "address": "2055 Forest Street, Denver, CO 80207",
-            "price": "2,450,000",
-            "bedroom": "5",
-            "bathroom": "5",
-            "sqft": "5,315",
-            "image": "https://photos.zillowstatic.com/fp/ca08974b4db0a4eda5628d231b99001b-cc_ft_960.webp"
-        },
-        {
-            "id": 11,
-            "address": "535 Garfield Street, Denver, CO 80206",
-            "price": "2,200,000",
-            "bedroom": "4",
-            "bathroom": "3",
-            "sqft": "3,700",
-            "image": "https://photos.zillowstatic.com/fp/bc2e9fb4f6e7df4cdc4f71e8c7c527bb-cc_ft_960.webp"
-        },
-        {
-            "id": 12,
-            "address": "2464 S Adams Street, Denver, CO 80210",
-            "price": "5,000,000",
-            "bedroom": "6",
-            "bathroom": "7",
-            "sqft": "7,260",
-            "image": "https://photos.zillowstatic.com/fp/9df0bd838487af428acbdc5ceaac8e6e-cc_ft_960.webp"
-        },
-        {
-            "id": 13,
-            "address": "621 S Harrison Lane, Denver, CO 80209",
-            "price": "1,599,000",
-            "bedroom": "4",
-            "bathroom": "3",
-            "sqft": "3,205",
-            "image": "https://photos.zillowstatic.com/fp/f32cc30b273f4dad60717a4353ecc740-cc_ft_960.webp"
-        },
-        {
-            "id": 14,
-            "address": "2370 S Columbine Street, Denver, CO 80210",
-            "price": "2,285,000",
-            "bedroom": "6",
-            "bathroom": "6",
-            "sqft": "5,935",
-            "image": "https://photos.zillowstatic.com/fp/a7cdf937459dc175ee2a7d575ca983d3-cc_ft_960.webp"
-        },
-        {
-            "id": 15,
-            "address": "3054 S Bellaire Street, Denver, CO 80222",
-            "price": "2,150,000",
-            "bedroom": "5",
-            "bathroom": "6",
-            "sqft": "5,346",
-            "image": "https://photos.zillowstatic.com/fp/82833afa77fb4845eb32466667182c5a-cc_ft_960.webp"
-        },
-        {
-            "id": 16,
-            "address": "582 S York Street, Denver, CO 80209",
-            "price": "2,750,000",
-            "bedroom": "5",
-            "bathroom": "5",
-            "sqft": "3,572",
-            "image": "https://photos.zillowstatic.com/fp/bbe265f410d1e91ce712131292b796fc-cc_ft_960.webp"
-        },
-        {
-            "id": 17,
-            "address": "1940 S Clayton Street, Denver, CO 80210",
-            "price": "2,295,000",
-            "bedroom": "4",
-            "bathroom": "5",
-            "sqft": "4,653",
-            "image": "https://photos.zillowstatic.com/fp/6096698dec31dcd9647f3659b4b4febf-cc_ft_960.webp"
-        },
-        {
-            "id": 18,
-            "address": "56 Dahlia Street, Denver, CO 80220",
-            "price": "2,398,000",
-            "bedroom": "5",
-            "bathroom": "6",
-            "sqft": "5,243",
-            "image": "https://photos.zillowstatic.com/fp/7c16c1433e877f147169b2c024c3923a-cc_ft_960.webp"
-        },
-        {
-            "id": 19,
-            "address": "680 S Gilpin Street, Denver, CO 80209",
-            "price": "2,575,000",
-            "bedroom": "6",
-            "bathroom": "5",
-            "sqft": "6,396",
-            "image": "https://photos.zillowstatic.com/fp/05ba8dd60f0916260a3727eb244b5b8e-cc_ft_960.webp"
-        },
-        {
-            "id": 19,
-            "address": "146 S Poplar Street, Denver, CO 80230",
-            "price": "2,095,000",
-            "bedroom": "5",
-            "bathroom": "5",
-            "sqft": "5,214",
-            "image": "https://photos.zillowstatic.com/fp/a42e224da2f2b90b26c32faf5f3f139f-cc_ft_960.webp"
-        },
-        {
-            "id": 20,
-            "address": "2285 S Jackson Street, Denver, CO 80210",
-            "price": "3,495,000",
-            "bedroom": "4",
-            "bathroom": "5",
-            "sqft": "6,490",
-            "image": "https://photos.zillowstatic.com/fp/02265f44f3dbb0627605b132f20f4988-cc_ft_960.webp"
-        },
-        {
-            "id": 21,
-            "address": "321 Kearney Street, Denver, CO 80220",
-            "price": "4,100,000",
-            "bedroom": "5",
-            "bathroom": "5",
-            "sqft": "6,319",
-            "image": "https://photos.zillowstatic.com/fp/6d0855e81775355ad18869f7c5cbe406-cc_ft_960.webp"
-        },
-        {
-            "id": 22,
-            "address": "4745 Elm Court, Denver, CO 80211",
-            "price": "1,900,000",
-            "bedroom": "5",
-            "bathroom": "4",
-            "sqft": "4,215",
-            "image": "https://photos.zillowstatic.com/fp/3820279b7e27025c62a8d5c18073e8d2-cc_ft_960.webp"
-        },
-        {
-            "id": 23,
-            "address": "110 S Oneida Street, Denver, CO 80230",
-            "price": "1,900,000",
-            "bedroom": "5",
-            "bathroom": "4",
-            "sqft": "4,820",
-            "image": "https://photos.zillowstatic.com/fp/d8760c97db505809b102f587f5d33be6-cc_ft_960.webp"
-        },
-        {
-            "id": 24,
-            "address": "2644 S Milwaukee Street, Denver, CO 80210",
-            "price": "4,100,000",
-            "bedroom": "5",
-            "bathroom": "8",
-            "sqft": "7,284",
-            "image": "https://photos.zillowstatic.com/fp/35acf5a51c1513e9bc3b588e241cf787-cc_ft_960.webp"
-        },
-        {
-            "id": 25,
-            "address": "776 S Gaylord Street, Denver, CO 80209",
-            "price": "3,475,000",
-            "bedroom": "5",
-            "bathroom": "5",
-            "sqft": "5,175",
-            "image": "https://photos.zillowstatic.com/fp/a05a6a2fdafc60b0ef99ade38309275f-cc_ft_960.webp"
-        },
-        {
-            "id": 26,
-            "address": "9780 E 63rd Drive, Denver, CO 80238",
-            "price": "1,714,900",
-            "bedroom": "5",
-            "bathroom": "5",
-            "sqft": "4,662",
-            "image": "https://photos.zillowstatic.com/fp/12983a8820656362e4957c5cd53e2b58-cc_ft_960.webp"
-        },
-        {
-            "id": 27,
-            "address": "9780 E 63rd Drive, Denver, CO 80238",
-            "price": "2,795,000",
-            "bedroom": "5",
-            "bathroom": "5",
-            "sqft": "4,832",
-            "image": "https://photos.zillowstatic.com/fp/0d221b4652f9849b65a7e9e0a47a6586-cc_ft_960.webp"
-        },
-        {
-            "id": 28,
-            "address": "325 S Race Street, Denver, CO 80209",
-            "price": "3,495,000",
-            "bedroom": "6",
-            "bathroom": "6",
-            "sqft": "5,723",
-            "image": "https://photos.zillowstatic.com/fp/06cc5bf9357920bc4a2b1217ba1bfc35-cc_ft_960.webp"
-        },
-        {
-            "id": 29,
-            "address": "1930 N Albion Street, Denver, CO 80220",
-            "price": "3,275,000",
-            "bedroom": "6",
-            "bathroom": "5",
-            "sqft": "5,409",
-            "image": "https://photos.zillowstatic.com/fp/a1edcae7165f350acd3cc806c3ae962d-cc_ft_960.webp"
-        },
-        {
-            "id": 30,
-            "address": "3711 Tejon Street, Denver, CO 80211",
-            "price": "2,125,000",
-            "bedroom": "3",
-            "bathroom": "4",
-            "sqft": "3,495",
-            "image": "https://photos.zillowstatic.com/fp/c4db416606ebc104dd343598ccb24963-cc_ft_960.webp"
-        }
-    ]
+  "properties": [
+    {
+      "id": 5,
+      "address": "722 N High Street, Denver, CO 80218",
+      "price": 3600000,
+      "bedroom": "6",
+      "bathroom": "5",
+      "sqft": "6,154",
+      "image": "https://photos.zillowstatic.com/fp/8d299d8521ad441af1d91361169c6b04-o_a.webp"
+    },
+    {
+      "id": 6,
+      "address": "3634 Wyandot Street, Denver, CO 80211",
+      "price": 2750000,
+      "bedroom": "4",
+      "bathroom": "4",
+      "sqft": "2,580",
+      "image": "https://photos.zillowstatic.com/fp/a12cf031bcf15d50c57dd2e6d76a2a68-o_a.webp"
+    },
+    {
+      "id": 7,
+      "address": "1961 S Humboldt Street, Denver, CO 80210",
+      "price": 2000000,
+      "bedroom": "4",
+      "bathroom": "4",
+      "sqft": "4,563",
+      "image": "https://photos.zillowstatic.com/fp/73c570e631c3819f37837dba19d1966e-o_a.webp"
+    },
+    {
+      "id": 8,
+      "address": "1410 S Monroe Street, Denver, CO 80210",
+      "price": "1,999,000",
+      "bedroom": "6",
+      "bathroom": "7",
+      "sqft": "4,878",
+      "image": "https://photos.zillowstatic.com/fp/4f8bc91c965b2e7f8eb3fdb4c683f77c-cc_ft_960.webp"
+    },
+    {
+      "id": 9,
+      "address": "1125 Leyden Street, Denver, CO 80220",
+      "price": "1,400,000",
+      "bedroom": "5",
+      "bathroom": "5",
+      "sqft": "4,251",
+      "image": "https://photos.zillowstatic.com/fp/b3a3aab149316cff5726cf0db932b6b7-cc_ft_960.webp"
+    },
+    {
+      "id": 10,
+      "address": "2055 Forest Street, Denver, CO 80207",
+      "price": "2,450,000",
+      "bedroom": "5",
+      "bathroom": "5",
+      "sqft": "5,315",
+      "image": "https://photos.zillowstatic.com/fp/ca08974b4db0a4eda5628d231b99001b-cc_ft_960.webp"
+    },
+    {
+      "id": 11,
+      "address": "535 Garfield Street, Denver, CO 80206",
+      "price": "2,200,000",
+      "bedroom": "4",
+      "bathroom": "3",
+      "sqft": "3,700",
+      "image": "https://photos.zillowstatic.com/fp/bc2e9fb4f6e7df4cdc4f71e8c7c527bb-cc_ft_960.webp"
+    },
+    {
+      "id": 12,
+      "address": "2464 S Adams Street, Denver, CO 80210",
+      "price": "5,000,000",
+      "bedroom": "6",
+      "bathroom": "7",
+      "sqft": "7,260",
+      "image": "https://photos.zillowstatic.com/fp/9df0bd838487af428acbdc5ceaac8e6e-cc_ft_960.webp"
+    },
+    {
+      "id": 13,
+      "address": "621 S Harrison Lane, Denver, CO 80209",
+      "price": "1,599,000",
+      "bedroom": "4",
+      "bathroom": "3",
+      "sqft": "3,205",
+      "image": "https://photos.zillowstatic.com/fp/f32cc30b273f4dad60717a4353ecc740-cc_ft_960.webp"
+    },
+    {
+      "id": 14,
+      "address": "2370 S Columbine Street, Denver, CO 80210",
+      "price": "2,285,000",
+      "bedroom": "6",
+      "bathroom": "6",
+      "sqft": "5,935",
+      "image": "https://photos.zillowstatic.com/fp/a7cdf937459dc175ee2a7d575ca983d3-cc_ft_960.webp"
+    },
+    {
+      "id": 15,
+      "address": "3054 S Bellaire Street, Denver, CO 80222",
+      "price": "2,150,000",
+      "bedroom": "5",
+      "bathroom": "6",
+      "sqft": "5,346",
+      "image": "https://photos.zillowstatic.com/fp/82833afa77fb4845eb32466667182c5a-cc_ft_960.webp"
+    },
+    {
+      "id": 16,
+      "address": "582 S York Street, Denver, CO 80209",
+      "price": "2,750,000",
+      "bedroom": "5",
+      "bathroom": "5",
+      "sqft": "3,572",
+      "image": "https://photos.zillowstatic.com/fp/bbe265f410d1e91ce712131292b796fc-cc_ft_960.webp"
+    },
+    {
+      "id": 17,
+      "address": "1940 S Clayton Street, Denver, CO 80210",
+      "price": "2,295,000",
+      "bedroom": "4",
+      "bathroom": "5",
+      "sqft": "4,653",
+      "image": "https://photos.zillowstatic.com/fp/6096698dec31dcd9647f3659b4b4febf-cc_ft_960.webp"
+    },
+    {
+      "id": 18,
+      "address": "56 Dahlia Street, Denver, CO 80220",
+      "price": "2,398,000",
+      "bedroom": "5",
+      "bathroom": "6",
+      "sqft": "5,243",
+      "image": "https://photos.zillowstatic.com/fp/7c16c1433e877f147169b2c024c3923a-cc_ft_960.webp"
+    },
+    {
+      "id": 19,
+      "address": "680 S Gilpin Street, Denver, CO 80209",
+      "price": "2,575,000",
+      "bedroom": "6",
+      "bathroom": "5",
+      "sqft": "6,396",
+      "image": "https://photos.zillowstatic.com/fp/05ba8dd60f0916260a3727eb244b5b8e-cc_ft_960.webp"
+    },
+    {
+      "id": 19,
+      "address": "146 S Poplar Street, Denver, CO 80230",
+      "price": "2,095,000",
+      "bedroom": "5",
+      "bathroom": "5",
+      "sqft": "5,214",
+      "image": "https://photos.zillowstatic.com/fp/a42e224da2f2b90b26c32faf5f3f139f-cc_ft_960.webp"
+    },
+    {
+      "id": 20,
+      "address": "2285 S Jackson Street, Denver, CO 80210",
+      "price": "3,495,000",
+      "bedroom": "4",
+      "bathroom": "5",
+      "sqft": "6,490",
+      "image": "https://photos.zillowstatic.com/fp/02265f44f3dbb0627605b132f20f4988-cc_ft_960.webp"
+    },
+    {
+      "id": 21,
+      "address": "321 Kearney Street, Denver, CO 80220",
+      "price": "4,100,000",
+      "bedroom": "5",
+      "bathroom": "5",
+      "sqft": "6,319",
+      "image": "https://photos.zillowstatic.com/fp/6d0855e81775355ad18869f7c5cbe406-cc_ft_960.webp"
+    },
+    {
+      "id": 22,
+      "address": "4745 Elm Court, Denver, CO 80211",
+      "price": "1,900,000",
+      "bedroom": "5",
+      "bathroom": "4",
+      "sqft": "4,215",
+      "image": "https://photos.zillowstatic.com/fp/3820279b7e27025c62a8d5c18073e8d2-cc_ft_960.webp"
+    },
+    {
+      "id": 23,
+      "address": "110 S Oneida Street, Denver, CO 80230",
+      "price": "1,900,000",
+      "bedroom": "5",
+      "bathroom": "4",
+      "sqft": "4,820",
+      "image": "https://photos.zillowstatic.com/fp/d8760c97db505809b102f587f5d33be6-cc_ft_960.webp"
+    },
+    {
+      "id": 24,
+      "address": "2644 S Milwaukee Street, Denver, CO 80210",
+      "price": "4,100,000",
+      "bedroom": "5",
+      "bathroom": "8",
+      "sqft": "7,284",
+      "image": "https://photos.zillowstatic.com/fp/35acf5a51c1513e9bc3b588e241cf787-cc_ft_960.webp"
+    },
+    {
+      "id": 25,
+      "address": "776 S Gaylord Street, Denver, CO 80209",
+      "price": "3,475,000",
+      "bedroom": "5",
+      "bathroom": "5",
+      "sqft": "5,175",
+      "image": "https://photos.zillowstatic.com/fp/a05a6a2fdafc60b0ef99ade38309275f-cc_ft_960.webp"
+    },
+    {
+      "id": 26,
+      "address": "9780 E 63rd Drive, Denver, CO 80238",
+      "price": "1,714,900",
+      "bedroom": "5",
+      "bathroom": "5",
+      "sqft": "4,662",
+      "image": "https://photos.zillowstatic.com/fp/12983a8820656362e4957c5cd53e2b58-cc_ft_960.webp"
+    },
+    {
+      "id": 27,
+      "address": "9780 E 63rd Drive, Denver, CO 80238",
+      "price": "2,795,000",
+      "bedroom": "5",
+      "bathroom": "5",
+      "sqft": "4,832",
+      "image": "https://photos.zillowstatic.com/fp/0d221b4652f9849b65a7e9e0a47a6586-cc_ft_960.webp"
+    },
+    {
+      "id": 28,
+      "address": "325 S Race Street, Denver, CO 80209",
+      "price": "3,495,000",
+      "bedroom": "6",
+      "bathroom": "6",
+      "sqft": "5,723",
+      "image": "https://photos.zillowstatic.com/fp/06cc5bf9357920bc4a2b1217ba1bfc35-cc_ft_960.webp"
+    },
+    {
+      "id": 29,
+      "address": "1930 N Albion Street, Denver, CO 80220",
+      "price": "3,275,000",
+      "bedroom": "6",
+      "bathroom": "5",
+      "sqft": "5,409",
+      "image": "https://photos.zillowstatic.com/fp/a1edcae7165f350acd3cc806c3ae962d-cc_ft_960.webp"
+    },
+    {
+      "id": 30,
+      "address": "3711 Tejon Street, Denver, CO 80211",
+      "price": "2,125,000",
+      "bedroom": "3",
+      "bathroom": "4",
+      "sqft": "3,495",
+      "image": "https://photos.zillowstatic.com/fp/c4db416606ebc104dd343598ccb24963-cc_ft_960.webp"
+    }
+  ]
 }

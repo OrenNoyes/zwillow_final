@@ -1,58 +1,58 @@
 import React, { useState } from "react";
 
-function PropCard({ plant, onDeletePlant, onUpdatePlant }) {
-    const { id, name, image, price } = plant;
+function PropCard({ prop, deleteProp, updateProp }) {
+    const { id, price, address, image  } = prop;
 
-    const [isInStock, setIsInStock] = useState(true);
-    const [updatedPrice, setUpdatedPrice] = useState(price);
+    const [isAvailable, setIsAvailable] = useState(true);
+    const [newPrice, setNewPrice] = useState(price);
 
-    function handleToggleStock() {
-        setIsInStock((isInStock) => !isInStock);
+    function handleToggleAvb() {
+        setIsAvailable((isAvailable) => !isAvailable);
     }
 
     function handleDeleteClick() {
-        fetch(`http://localhost:6001/plants/${id}`, {
+        fetch(`http://localhost:3000/properties/${id}`, {
             method: "DELETE",
         });
 
-        onDeletePlant(id);
+        deleteProp(id);
     }
 
     function handlePriceFormSubmit(e) {
         e.preventDefault();
-        fetch(`http://localhost:6001/plants/${id}`, {
+        fetch(`http://localhost:3000/properties/${id}`, {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify({ price: updatedPrice }),
+            body: JSON.stringify({ price: newPrice }),
         })
             .then((r) => r.json())
-            .then((updatedPlant) => {
-                onUpdatePlant(updatedPlant);
+            .then((updateProp) => {
+                updateProp(updateProp);
             });
     }
 
     return (
         <li className="card">
-            <img src={image} alt={name} />
-            <h4>{name}</h4>
+            <img src={image} alt={address} />
+            <h4>{address}</h4>
             <p>Price: {price}</p>
-            {isInStock ? (
-                <button className="primary" onClick={handleToggleStock}>
-                    In Stock
+            {isAvailable ? (
+                <button className="primary" onClick={handleToggleAvb}>
+                    Available
                 </button>
             ) : (
-                <button onClick={handleToggleStock}>Out of Stock</button>
+                <button onClick={handleToggleAvb}>Unavailable</button>
             )}
             <button onClick={handleDeleteClick}>Delete</button>
             <form onSubmit={handlePriceFormSubmit}>
                 <input
                     type="number"
-                    step="0.01"
-                    placeholder="New price..."
-                    value={updatedPrice}
-                    onChange={(e) => setUpdatedPrice(parseFloat(e.target.value))}
+                    step="100"
+                    placeholder="Price"
+                    value={newPrice}
+                    onChange={(e) => setNewPrice(parseFloat(e.target.value))}
                 />
                 <button type="submit">Update Price</button>
             </form>

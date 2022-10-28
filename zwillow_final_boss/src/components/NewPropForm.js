@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
-function NewPropForm({ onAddPlant }) {
-    const [name, setName] = useState("");
+function NewPropForm({ onAddProp }) {
+    const [address, setAddress] = useState("");
     const [image, setImage] = useState("");
     const [price, setPrice] = useState("");
 
@@ -13,25 +13,25 @@ function NewPropForm({ onAddPlant }) {
                 "Content-Type": "application/json",
             },
             body: JSON.stringify({
-                name: name,
+                address: address,
                 image: image,
                 price: price,
             }),
         })
             .then((r) => r.json())
-            .then((newPlant) => onAddPlant(newPlant));
+            .then((newProp) => onAddProp(newProp));
     }
 
     return (
-        <div className="new-plant-form">
-            <h2>New Plant</h2>
+        <div className="new-prop-form">
+            <h2>Add Property!</h2>
             <form onSubmit={handleSubmit}>
                 <input
                     type="text"
                     name="name"
-                    placeholder="Plant name"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
+                    placeholder="Address"
+                    value={address}
+                    onChange={(e) => setAddress(e.target.value)}
                 />
                 <input
                     type="text"
@@ -43,12 +43,12 @@ function NewPropForm({ onAddPlant }) {
                 <input
                     type="number"
                     name="price"
-                    step="0.01"
+                    step="100000"
                     placeholder="Price"
                     value={price}
                     onChange={(e) => setPrice(parseFloat(e.target.value))}
                 />
-                <button type="submit">Add Plant</button>
+                <button type="submit">Add Property</button>
             </form>
         </div>
     );

@@ -1,16 +1,16 @@
 import React from "react";
 import PropCard from "./PropCard";
 
-function PropList({ plants, onDeletePlant, onUpdatePlant }) {
+function PropList({ props, deleteProp, updateProp}) {
     return (
         <ul className="cards">
-            {plants.map((plant) => {
+            {props.map((prop) => {
                 return (
                     <PropCard
-                        key={plant.id}
-                        plant={plant}
-                        onDeletePlant={onDeletePlant}
-                        onUpdatePlant={onUpdatePlant}
+                        key={prop.id}
+                        prop={prop}
+                        deleteProp={deleteProp}
+                        updateProp={updateProp}
                     />
                 );
             })}

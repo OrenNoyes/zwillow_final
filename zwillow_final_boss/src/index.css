@@ -1,5 +1,5 @@
 :root {
-  --green: rgb(39, 189, 39);
+  --teal: rgb(4, 209, 255);
 }
 
 * {
@@ -9,7 +9,7 @@
 }
 
 body {
-  font-family: "Playfair Display", serif;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 h2 {
@@ -21,11 +21,13 @@ button {
   font-family: inherit;
   border: none;
   cursor: pointer;
+  color: rgb(4, 209, 255);
+  border-radius: 25px;
 }
 
 button.primary {
-  background-color: var(--green);
-  color: white;
+  background-color: var(--teal);
+  color: rgb(0, 0, 0);
 }
 
 .app {
@@ -44,30 +46,31 @@ header h1 {
   font-size: 1.25em;
   padding-left: 0.5rem;
   color: transparent;
-  text-shadow: 0 0 0 var(--green);
 }
 
 main {
   padding: 0 1rem;
 }
 
-.new-plant-form {
+.new-prop-form {
   padding: 2rem 1rem;
   margin: 2rem 0;
-  background-color: rgba(181, 250, 181, 0.5);
+  background-color: rgba(4, 209, 255);
+  border-radius: 25px;
+
 }
 
-.new-plant-form form {
+.new-prop-form form {
   display: flex;
   justify-content: center;
 }
 
-.new-plant-form input {
+.new-prop-form input {
   margin-right: 2rem;
   flex: 1;
 }
 
-.new-plant-form button {
+.new-prop-form button {
   width: 150px;
 }
 
@@ -103,6 +106,7 @@ input:focus {
 
 .card {
   margin: 1rem;
+  box-shadow: 10px 10px 20px grey;
 }
 
 .card img {
@@ -134,4 +138,12 @@ input:focus {
   .card {
     width: calc(20% - 2rem);
   }
+}
+
+.contact {
+  color:rgb(4, 209, 255)
+}
+
+h1 {
+  color: rgb(4, 209, 255);
 }

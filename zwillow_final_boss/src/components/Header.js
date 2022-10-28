@@ -16,9 +16,9 @@ function Header() {
     return (
         <header>
             <h1>
-                Zwillow
+                Zwillow 🏠
                 <span className="logo" role="img">
-                    🌱
+                
                 </span>
             </h1>
             <NavLink className= "about" to= "/about" style={links}>About </NavLink>
